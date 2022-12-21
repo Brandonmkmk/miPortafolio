@@ -260,6 +260,12 @@ margin-top: 30px;
   display: flex;
   justify-content: center;
 }
+.about{
+  height: 500px;
+}
+.descripcion{
+  margin-left: 10px;
+}
 }
 
 
