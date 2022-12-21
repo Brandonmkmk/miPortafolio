@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background: url(./assets/informatica.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 70px;
+  padding: 10px;
+  
+  
+  
+}
+.img {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  transition: width 3s;
+}
+.img:hover {
+  width: 400px;
+}
+.imagen a {
+  text-decoration: none;
+  margin-top: 0;
+}
+.acerca-de {
+  gap: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  
+}
+.acerca-de a {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 70px;
+  transition:width 3s;
+}
+.acerca-de a:hover{
+width:90px
+}
+.compra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+.comprar {
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100px;
+  transition: width 2s;
+  text-shadow: 2px 2px black;
+}
+.comprar:hover {
+  width: 200px;
+}
+.yo {
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  transition: width 2s;
+  text-shadow: 2px 2px black;
+}
+.yop {
+  display: flex;
+  justify-content: center;
+}
+.yo:hover {
+  width: 200px;
+}
+.container{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.card{
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 40px;
+
+  
+}
+.button{
+  width: 250px;
+  background-color: burlywood;
+  color: white;
+  margin-left: 25px;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.titulo{
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+.profile{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 300px;
+  height: 200px;
+  
+}
+.tarjetas{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.foto img{
+  width: 100px;
+  height: 100px;
+  margin-left: 95px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.area{
+  text-align: center;
+  margin-top: 10px;
+}
+.especializado{
+  margin-left: 10px;
+}
+.contenedor{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.about{
+  width: 950px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+.image img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 1.0;
+}
+.image img:hover{
+  opacity: 0.5;
+}
+.nombre{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+.descripcion{
+  margin-top: 10px;
+}
+
+.conocimientos img{
+  width: 200px;
+  height: 200px;
+  
+  margin-top: 30px;
+  
+
+}
+.conocimientos h2{
+  text-align: center;
+  color:black;
+  opacity: 1.0;
+  margin-top: 40px;
+}
+.conocimientos img:hover{
+  transform: translateY(-10%);
+    opacity: 0.7;
+}
+.galeria h2{
+  text-align: center;
+  margin-top: 40px;
+}
+.galeria img{
+  margin-top: 10px;
+  width: 360px;
+  height: 300px;
+  opacity: 1.0;
+  
+}
+.galeria img:hover{
+  opacity: 0.7;
+}
+.linea{
+  margin-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.contacto{
+border: 2px solid white;
+width: 600px;
+height: 380px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: 30px;
+
+
+
+}
+.contacto input{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+}
+.contacto textarea{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contacto h3{
+  text-align: center;
+}
+@media (max-width:680px){
+.conocimientos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.galeria{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.acerca-de{
+  display: flex;
+  justify-content: flex-start;
+}
+.compra{
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+
+
+
+
